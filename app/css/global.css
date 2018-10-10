@@ -8,7 +8,7 @@ body {
 }
 
 #main-nav {
-    background-color: #d1ece3;
+    background-color: honeydew;
 }
 
 #main-nav ul .list-item a.menu-item {
@@ -23,10 +23,27 @@ body {
 }
 
 #main-nav ul .list-item .drop-menu {
-    background-color: #d1ece3;
+    background-color: honeydew;
     border: none;
 }
 
 #main-nav ul .list-item .drop-menu a {
     display: inline-block;
+}
+
+#header {
+    height: 100vh;
+}
+
+#ueber-mich {
+    background-image: url(../img/dawn-3358468_1920.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#ueber-mich p, #ueber-mich h1 {
+    padding: 20px;
+    color: honeydew;
 }

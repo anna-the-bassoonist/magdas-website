@@ -1,0 +1,12 @@
+#ueber-mich {
+    background-image: url(../img/dawn-3358468_1920.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#ueber-mich p, #ueber-mich h1 {
+    padding: 20px;
+    color: honeydew;
+}

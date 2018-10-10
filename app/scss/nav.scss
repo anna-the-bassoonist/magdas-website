@@ -2,7 +2,7 @@
 @import 'mixins';
 
 #main-nav {
-    background-color: $menu-color;
+    background-color: $base-color;
 
     ul {
         .list-item {
@@ -21,7 +21,7 @@
                 border-bottom: 1px solid rgb(51, 51, 51);
             }
               .drop-menu {
-                background-color: $menu-color;
+                background-color: $base-color;
                 border: none;
                   a{
                       display: inline-block;

@@ -1,0 +1,17 @@
+@import 'zmienne';
+@import 'mixins';
+
+
+#ueber-mich{
+    background-image: url(../img/dawn-3358468_1920.jpg);
+    background-position: left;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    p,h1{
+        padding: 20px;
+//        margin: 0 10px 0 auto;
+        color: $base-color;
+    }
+}
