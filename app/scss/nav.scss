@@ -1,0 +1,34 @@
+@import 'zmienne';
+@import 'mixins';
+
+#main-nav {
+    background-color: $menu-color;
+
+    ul {
+        .list-item {
+          
+
+            a.menu-item {
+                color: $main-color;
+                border-bottom: 1px solid rgba(51, 51, 51, 0);
+                transition: all 0.2s ease-in-out;
+                display: inline-block;
+            }
+
+
+
+            a.menu-item:hover {
+                border-bottom: 1px solid rgb(51, 51, 51);
+            }
+              .drop-menu {
+                background-color: $menu-color;
+                border: none;
+                  a{
+                      display: inline-block;
+                  } 
+
+            }
+        }
+
+    }
+}

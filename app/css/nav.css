@@ -1,0 +1,23 @@
+#main-nav {
+    background-color: #d1ece3;
+}
+
+#main-nav ul .list-item a.menu-item {
+    color: black;
+    border-bottom: 1px solid rgba(51, 51, 51, 0);
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+}
+
+#main-nav ul .list-item a.menu-item:hover {
+    border-bottom: 1px solid #333333;
+}
+
+#main-nav ul .list-item .drop-menu {
+    background-color: #d1ece3;
+    border: none;
+}
+
+#main-nav ul .list-item .drop-menu a {
+    display: inline-block;
+}
